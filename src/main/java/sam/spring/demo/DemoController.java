@@ -22,7 +22,7 @@ public class DemoController {
 
     @GetMapping("/tests")
     public List<Tests> getAllTests(){
-        return repository.getTestsList();
+        return repository.findAll();
     }
 
 

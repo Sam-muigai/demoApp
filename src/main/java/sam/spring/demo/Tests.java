@@ -3,11 +3,13 @@ package sam.spring.demo;
 
 import lombok.Getter;
 import lombok.Setter;
+import org.springframework.data.annotation.Id;
 
 @Getter
 @Setter
 public class Tests {
 
+    @Id
     private Integer Id;
 
     private String name;
